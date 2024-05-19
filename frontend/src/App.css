@@ -1,0 +1,131 @@
+body{
+  background-color: black;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:60px;
+  color:white;
+}
+
+h1{
+  text-align: center;
+  color:antiquewhite;
+
+}
+.btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.btn button{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  border:5px solid greenyellow;
+  background-color: rgb(234, 219, 136);
+  color: rgb(44, 90, 39);
+  font-weight: bolder;
+
+}
+
+.btn button:hover{
+  cursor: grab;
+  background-color: rgb(50, 181, 50);
+}
+
+.entity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.entity ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.entity ul li{
+  border: 2px solid salmon;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: rgb(199, 4, 4);
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  margin-right: 20px;
+  color: rgb(241, 188, 182);
+  font-weight: bolder;
+}
+.entity ul li:hover{
+  cursor: grab;
+  background-color: salmon;
+  color: red;
+}
+
+.curentity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.eninput input{
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.eninput button{
+  padding: 10px;
+  font-size:18px;
+  background-color: green;
+  color:yellow;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.record{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: salmon;
+  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: 80px;
+}
+
+.record h2{
+  color:rgb(12, 50, 12);
+
+}
+th{
+  background-color: rgb(107, 128, 0);
+  padding: 10px;
+  font-size:20px;
+
+}
+
+tr{
+  padding: 10px;
+  font-size:20px;
+
+}
+.record button{
+  color:red;
+  padding: 8px;
+  font-weight: bold;
+  
+}
+
+.record button:hover{
+  background-color: green;
+  color:white;
+  border:none;
+}
