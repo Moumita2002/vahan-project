@@ -3,7 +3,7 @@
 
 ![2024-05-20](https://github.com/Moumita2002/vahan-project/assets/102172188/f3071d89-cc24-4d22-bff5-70d341418cdb)
 
-- Overview of Backend:-
+# Overview of Backend:-
   - Middleware:
     ensureModelExists: This middleware ensures that a Mongoose model corresponding to the requested entity name exists. If not, it dynamically creates the model using the entity definition   
     fetched from the database.
@@ -16,7 +16,7 @@
     Utility functions (formatDate and formatDateToUTC) are used to handle date fields, ensuring that dates are stored and retrieved in a consistent format.
 
 
-- Overview of Frontend -
+# Overview of Frontend -
   - State Management: React's useState and useEffect hooks manage the application state and side effects. States such as entities, currentEntity, records, newRecord, editingRecordId, and 
     editingRecordData keep track of entities, selected entity records, new record inputs, and records being edited.
 
